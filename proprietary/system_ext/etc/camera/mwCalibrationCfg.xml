@@ -23,7 +23,7 @@
 <fOptRangeCount>4</fOptRangeCount>
 <fOptRange>"0.995,1.005,0.995,1.005"</fOptRange>
 
-<!-----  EFL,pixelSize,picW,picH-->
+<!--  EFL,pixelSize,picW,picH-->
 <MainCamParamsCount>4</MainCamParamsCount>
 <MainCamParams>"5.59,0.002,4096,3072"</MainCamParams>
 
