@@ -6,6 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/lemonade
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/lemonade/proprietary/system_ext/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/engineer_camera_config \
+    vendor/oneplus/lemonade/proprietary/system_ext/etc/camera/mtCalibrationCfg.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mtCalibrationCfg.xml \
+    vendor/oneplus/lemonade/proprietary/system_ext/etc/camera/mtInputparam.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mtInputparam.xml \
+    vendor/oneplus/lemonade/proprietary/system_ext/etc/camera/mwCalibrationCfg.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mwCalibrationCfg.xml \
+    vendor/oneplus/lemonade/proprietary/system_ext/etc/camera/mwInputparam.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mwInputparam.xml \
     vendor/oneplus/lemonade/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/lemonade/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/oneplus/lemonade/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
