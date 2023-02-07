@@ -1384,6 +1384,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.tilt.shift.macro.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 
 ]
